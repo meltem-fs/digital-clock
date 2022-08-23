@@ -7,7 +7,7 @@ window.onload = function () {
     let min = now.getMinutes();
     let sec = now.getSeconds();
     let mid = "pm";
-
+    var week = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
     
     if (min < 10) {
       min = "0" + min;
@@ -22,7 +22,9 @@ window.onload = function () {
       mid = "am";
     }
     document.getElementById("clock").innerHTML =
-      hour + ":" + min + ":" + sec + " " + mid;
+      hour + ":" + min + ":" + sec + " " + " " + week[now.getDay()];
     setTimeout(clock, 1000);
   }
 };
+
+

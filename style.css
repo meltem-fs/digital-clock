@@ -8,13 +8,13 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: 25%;
+  margin-top: 20%;
   background-color: black;
 }
 
 #clock {
   width: 400px;
-  height: 25%;
+  height: 80%;
   position: relative; /* display: flex; */
   justify-content: center;
   align-items: center;
@@ -34,3 +34,29 @@ body {
 h1 {
   color: white;
 }
+
+
+
+@media (max-width: 860px) {  #clock {    width: fit-content;  }}@media (max-width: 650px) {  #clock {    width: fit-content;  }}
+@media (max-width: 430px) {  #clock {    width: fit-content;  }}@keyframes animate {  from {    filter: hue-rotate(10deg);  }  to {    filter: hue-rotate(50deg);  }}
+
+
+
+
+/* #days{
+  color: white;
+ 
+}
+
+#days ul li{
+   list-style-type: none;
+   border: 5px solid rgb(96, 13, 100);
+   border-radius: 10px;
+   padding: 5px;
+}
+
+#days ul{
+  display: flex;
+  justify-content: space-between;
+  
+} */
