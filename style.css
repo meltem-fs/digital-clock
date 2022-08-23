@@ -20,14 +20,14 @@ body {
 }
 
 .hms {
-  font-size: 68pt;
+  font-size: 80px;
   font-weight: 200;
 }
 .ampm {
-  font-size: 22pt;
+  font-size: 22px;
 }
 .date {
-  font-size: 15pt;
+  font-size: 15px;
 }
 .today {
   display: inline-block;
@@ -47,8 +47,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   justify-content: space-around;
-  flex: 1;
   text-align: center;
-  margin: 20;
+  margin: 5px;
   align-items: center;
 }
