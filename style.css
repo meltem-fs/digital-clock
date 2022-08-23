@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+  background-color: black;
+}
+
+#clock {
+  width: 400px;
+  height: 25%;
+  position: relative; /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  font-size: 400%;
+  padding: 0px;
+  margin: 0;
+  background-size: 90%;
+  background-position: center;
+  border-radius: 5%;
+  color: rgba(255, 255, 255, 0.651);
+  background-color: rgb(10, 10, 10);
+  border: 5px solid rgb(64, 17, 73);
+  animation: animate 2s linear infinite;
+  box-shadow: 0 0 5px #1a0236, 0 0 25px #32047c, 0 0 40px #620e92,
+    0 0 60px #6b2786;
+}
+h1 {
+  color: white;
+}
